@@ -4,5 +4,16 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+div.message {
+  border: 1px solid black;
+  padding: 4px 8px;
+  margin: 16px 0;
+}
+
+div.message-data {
+  display: flex;
+  justify-content: space-between;
 }
