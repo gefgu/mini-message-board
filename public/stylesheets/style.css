@@ -27,3 +27,12 @@ form {
 form button {
   width: 96px;
 }
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}

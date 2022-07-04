@@ -5,7 +5,10 @@
     <link rel="stylesheet" href="/stylesheets/style.css" />
   </head>
   <body>
-    <h1><%= title %></h1>
+    <div class="flex justify-between">
+      <h1><%= title %></h1>
+      <a href="/new">Add Message</a>
+    </div>
     <% messages.forEach(message => { %>
     <div class="message">
       <p class="text"><%= message.text %></p>
